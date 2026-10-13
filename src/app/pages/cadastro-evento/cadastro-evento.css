@@ -1,0 +1,70 @@
+:host {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #183b64;
+  margin-bottom: 20px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+label {
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+
+input,
+select {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.invalido {
+  border: 2px solid red;
+  background-color: #fff0f0;
+}
+
+.erro {
+  color: red;
+  font-size: 14px;
+}
+
+.botao-salvar {
+  display: block;
+  visibility: visible;
+  padding: 12px 28px;
+  margin: 15px 0;
+  background-color: #1456a0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.botao-salvar:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.evento {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
